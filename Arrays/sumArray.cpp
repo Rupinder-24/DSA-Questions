@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+
+// Sum of Array
+
 void sumofaArray(int arr[],int n){
     int i=0;
     int sum=0;
@@ -12,25 +15,6 @@ void sumofaArray(int arr[],int n){
 
 }
 int main(){
-    // int arr[6]={1,2,3,4,5,6};
-    // int i=0;
-    // while(i<=6){
-
-    // cout<<arr[i];
-    // i++;
-    // }
-
-    // int n=5;
-    // int i=0;
-    // int sum=0;
-    // while(i<=6){
-    //     sum=sum+arr[i];
-    //     i++;
-
-    // }
-    // cout<<sum<<" ";
-
-
     int n;
     cout<<"Enter a size:";
     cin>>n;
