@@ -3,23 +3,7 @@
 
 using namespace std;
 
-// void findDuplicates(int arr[], int n) {
-//     bool found = false;
-    
-//     for (int i = 0; i < n; ++i) {
-//         for (int j = i + 1; j < n; ++j) {
-//             if (arr[i] == arr[j]) {
-//                 cout << "duplicate: " << arr[i] << endl;
-//                 found = true;
-//                 break; // To print each duplicate only once
-//             }
-//         }
-//     }
-
-//     if (!found) {
-//         cout << "No duplicates found" << endl;
-//     }
-// }
+// To find the duplicate element present in array or not.
 
 void duplicate(int arr[], int n) {
     int start = 0;
