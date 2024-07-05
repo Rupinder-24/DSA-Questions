@@ -2,6 +2,9 @@
 
 using namespace std;
 
+// Linear search 
+
+
 int linearSearch(int arr[],int n,int key){
      for(int i=1;i<n;i++){
          if(arr[i]==key){
